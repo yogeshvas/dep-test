@@ -6,7 +6,7 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Allow your frontend origin
+  origin: "https://incomparable-moxie-72663b.netlify.app", // Allow your frontend origin
   methods: ["GET", "POST", "PUT", "DELETE", "PATCH"], // Allowed methods
   allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   credentials: true, // Allow credentials
